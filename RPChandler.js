@@ -107,9 +107,9 @@ function promptToReset(whoWon){
     computerScore_span.innerHTML = computerScore
     result_div.innerHTML=`Let the battle begin!`
     if(whoWon == "u"){
-        prompt(">>>You have won the match!<<<")
+        alert(">>>You have won the match!<<<")
     }else{
-        prompt(">>>Computer has won the match!<<<")
+        alert(">>>Computer has won the match!<<<")
     }   
 }
 //*******************final verdict ENDs here ******************
